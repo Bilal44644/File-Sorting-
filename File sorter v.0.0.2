@@ -24,7 +24,7 @@ def extract_location_and_company(pdf_path: Path) -> Dict[str, str]:
         pdf = PyPDF2.PdfReader(file)
         
         # Get the first page of the PDF
-        page = pdf.reader.pages(0)
+        page = pdf.reader.pages[0]
 
         # Extract the text from the page
         text = page.extractText()
