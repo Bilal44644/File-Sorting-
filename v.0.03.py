@@ -5,14 +5,10 @@ from pathlib import Path
 from typing import Dict
 import PyPDF2
 
-path = r"C:\Users\Moe\Desktop\Bills 2023"
-assert os.path.isfile(path)
-with open(path, "r") as f:
-    pass
-
 # Replace this with the path to your PDF files
 PDF_DIRECTORY = r"C:\Users\Moe\Desktop\Bills 2023"
 pdf_file = PDF_DIRECTORY
+
 
 
 
